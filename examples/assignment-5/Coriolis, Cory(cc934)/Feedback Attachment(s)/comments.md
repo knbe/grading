@@ -1,0 +1,14 @@
+## COMMENTS
+
+- bad wwork 
+- it's essentially being a gangster
+
+## GRADE
+
+----        ----
+theory        -1
+analysis      -2
+total           7
+----        ----
+
+screw you
