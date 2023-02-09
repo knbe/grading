@@ -1,7 +1,7 @@
 A terminal grading workflow. I wrote this to make grading lab reports less 
-painful. This eliminates the need to be constantly opening and closing files, or 
-navigating (more like orienteering) the submission directory's idiotic layout. 
-Linux and i3wm centric.
+painful. The goal was to eliminate the need to be constantly opening and closing 
+files, or navigating (more like orienteering) the submission directory's idiotic 
+layout. Linux and i3wm centric.
 
 <p float="left">
 <br>
