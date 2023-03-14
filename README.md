@@ -2,7 +2,7 @@ A terminal grading workflow. I wrote this to make grading lab reports less, you
 know, awful. 
 
 This workflow pretty much eliminates the need to actually interact with the 
-submission directory (endless opening and closing of files, and navigating (more 
+submission directory (i.e. endlessly opening and closing files, and navigating (more 
 like orienteering) the submission directory's idiotic layout.) 
 
 [Linux](https://archlinux.org) and [i3wm](https://i3wm.org/) centric.
@@ -58,9 +58,9 @@ options:
   markdown file `comments.md`. 
   + N.B. the grades are saved in a file `grades-tmp.csv`, not the original 
   `grades.csv` file. This is so that a copy of the original grades file format 
-  is preserved (in case anything weird happens). I've noticed that NYU Classes 
-  is rather fussy about the format of the grades file that gets uploaded (in 
-  particular the variable names and the metadata at the top of the grades file. 
+  is preserved (in case anything weird happens). I've noticed that Classes is 
+  rather fussy about the format of the grades file that gets uploaded (in 
+  particular the variable names and the metadata at the top of the grades file.  
   If anything differs from the original download format, the grades don't get 
   uploaded correctly).  
 - `-p` to generate a pdf comments file for each student. Uses 
@@ -73,11 +73,11 @@ options:
   summary statistics ([Figure 
   4](https://github.com/knbe/grading/blob/main/media/stats.png)). 
 - `-u` to create an "upload" directory that contains only the necessary files 
-  for uploading back to NYU Classes. 
+  for uploading back to Classes. 
 
 # Usage
 
-- Download the assignment zip file from NYU Classes. Tick the boxes for "Student 
+- Download the assignment zip file from Classes. Tick the boxes for "Student 
   submission attachments", "Feedback attachments", and "grades.csv file". 
   Probably also tick the box for "include students who haven't submitted yet". 
 - Unzip the directory, move to the desired location, etc. 
@@ -90,4 +90,4 @@ options:
 - Once finished grading a particular student, save and close the `comments.txt` 
   file. Select the next student and repeat. 
 - When finished grading all students, run `grade <dir> -u` to create an "upload" 
-  directory. Zip this directory and upload to NYU Classes. 
+  directory. Zip this directory and upload to Classes. 
