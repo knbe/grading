@@ -1,8 +1,10 @@
 A terminal grading workflow. I wrote this to make grading lab reports less, uh, 
-you know, awful. This workflow (pretty much) eliminates the need to be 
-constantly opening and closing files, or navigating (more like orienteering) the 
-submission directory's idiotic layout. Linux and [i3wm](https://i3wm.org/) 
-centric.
+you know, awful. 
+
+This workflow pretty much eliminates the need to actually interact with the 
+submission directory (endless opening and closing of files, and navigating (more 
+like orienteering) the submission directory's idiotic layout. Linux and 
+[i3wm](https://i3wm.org/) centric.
 
 <p float="left">
 <br>
